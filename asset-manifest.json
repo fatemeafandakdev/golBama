@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/golBama.git/static/css/main.b848e3d1.css",
-    "main.js": "/golBama.git/static/js/main.04b99fb5.js",
+    "main.js": "/golBama.git/static/js/main.79dc3fe0.js",
     "static/media/bg.jpg": "/golBama.git/static/media/bg.beaf17dfc5a44eb93b1d.jpg",
     "static/media/banner.png": "/golBama.git/static/media/banner.f2da52a08a0764380444.png",
     "static/media/BYekan+.ttf": "/golBama.git/static/media/BYekan+.f26972c64b83c2aea5ca.ttf",
@@ -59,10 +59,10 @@
     "index.html": "/golBama.git/index.html",
     "static/media/insurance.svg": "/golBama.git/static/media/insurance.66ae31b602b179fb5686e1b3cdd29a36.svg",
     "main.b848e3d1.css.map": "/golBama.git/static/css/main.b848e3d1.css.map",
-    "main.04b99fb5.js.map": "/golBama.git/static/js/main.04b99fb5.js.map"
+    "main.79dc3fe0.js.map": "/golBama.git/static/js/main.79dc3fe0.js.map"
   },
   "entrypoints": [
     "static/css/main.b848e3d1.css",
-    "static/js/main.04b99fb5.js"
+    "static/js/main.79dc3fe0.js"
   ]
 }
