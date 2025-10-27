@@ -1,0 +1,36 @@
+name: Deploy React App to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main  # هر بار push به main این workflow اجرا میشه
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      # 1️⃣ Checkout کد
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      # 2️⃣ نصب Node.js
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 20
+
+      # 3️⃣ نصب dependencies
+      - name: Install dependencies
+        run: npm install
+
+      # 4️⃣ Build React app
+      - name: Build
+        run: CI=false npm run build
+
+     
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.fateme12345 }}
+          publish_dir: ./build
