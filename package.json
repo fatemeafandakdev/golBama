@@ -1,8 +1,10 @@
 {
 
   "name": "golbama",
+  "homepage": "https://fatemeafandakdev.github.io/golBama",
+
   "version": "0.1.0",
-  "homepage":"https://fatemeafandakdev.github.io/golBama.git",
+
   "private": true,
   "dependencies": {
     "@tailwindcss/postcss": "^4.1.14",
