@@ -12,7 +12,7 @@ import ScrollToTop from '../feature/ScrollToTop'
 function AppRouter() {
   return (
    
-    <BrowserRouter>
+    <BrowserRouter basename="/golBama">
     <ScrollToTop/>
       <Routes>
 

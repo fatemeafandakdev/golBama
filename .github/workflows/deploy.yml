@@ -3,7 +3,7 @@ name: Deploy React App to GitHub Pages
 on:
   push:
     branches:
-      - main  # هر بار push به main این workflow اجرا میشه
+      - main  
 
 jobs:
   build-and-deploy:
