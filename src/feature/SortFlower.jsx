@@ -1,4 +1,4 @@
-import React from "react";
+
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination } from "swiper/modules";
 import "swiper/css";
@@ -10,7 +10,7 @@ function SortFlower() {
  
 
   return (
-    <div className="w-[80%] bg-white m-auto p-6 rounded-2xl shadow-sm my-10">
+    <div className="w-[90%] bg-white m-auto p-6 rounded-2xl shadow-sm my-10">
       <Swiper
         slidesPerView={1}
         spaceBetween={10}

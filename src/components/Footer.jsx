@@ -48,9 +48,9 @@ function Footer() {
 
   return (
     <footer className="relative bg-gray-100 pt-32 mt-24 -mb-30">
-      {/* کادر بالایی */}
+    
      
-      {/* فوتر اصلی */}
+     
       <div className="bg-gray-300 pt-40 pb-10 relative">
       <div className="absolute top-0 left-1/2 transform -translate-x-1/2  -translate-y-1/2 bg-white rounded-2xl shadow-md w-[70%] flex flex-wrap justify-around items-center p-6">
         {featureIcons.map((item, i) => (
@@ -64,8 +64,8 @@ function Footer() {
         ))}
       </div>
 
-        <div className="w-[90%] mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-8 text-gray-700">
-          {/* ستون ۱ */}
+        <div className="w-[90%] gap-10 mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 md:gap-8 text-gray-700">
+        
           <div>
             <Link to="/">
               <img src={logo} alt="گل باما" className="w-40 mb-4" />
@@ -88,7 +88,7 @@ function Footer() {
             </div>
           </div>
 
-          {/* ستون ۲ */}
+        
           <div>
             <h3 className="text-lg font-semibold mb-4 text-gray-900">
               لینک‌های مفید
@@ -104,7 +104,7 @@ function Footer() {
             </ul>
           </div>
 
-          {/* ستون ۳ */}
+         
           <div>
             <h3 className="text-lg font-semibold mb-4 text-gray-900">
               میانبرهای کاربردی
@@ -120,14 +120,14 @@ function Footer() {
             </ul>
           </div>
 
-          {/* ستون ۴ */}
+        
           <div>
             <h3 className="text-lg font-semibold mb-4 text-gray-900">
               شبکه‌های اجتماعی
             </h3>
             <ul className="space-y-3 text-sm">
               {socials.map((item) => (
-                <li key={item.path} className="flex items-center gap-2">
+                <li key={item.path} className="flex items-center gap-2 justify-center">
                   {item.icon}
                   <Link to={item.path} className="hover:text-green-600">
                     {item.label}
@@ -137,12 +137,12 @@ function Footer() {
             </ul>
           </div>
 
-          {/* ستون ۵ */}
+         
           <div className="flex flex-col items-center justify-center">
             <h3 className="text-lg font-semibold mb-4 text-gray-900">
               همراه ما باشید
             </h3>
-            <div className="flex gap-4 text-2xl">
+            <div className="flex gap-4 text-2xl justify-center">
               {socials.map((item) => (
                 <Link
                   key={item.path}
@@ -156,7 +156,7 @@ function Footer() {
           </div>
         </div>
 
-        {/* خط پایین */}
+       
         <div className="border-t border-gray-300 mt-10 pt-4 text-center text-sm text-gray-600">
           © {new Date().getFullYear()}{" "}
           <Link to="/" className="text-green-700 hover:underline">

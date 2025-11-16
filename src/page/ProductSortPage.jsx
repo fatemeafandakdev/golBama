@@ -18,7 +18,7 @@ function ProductSortPage() {
 
   return (
     <LayOut>
-      {/* بنر بالا */}
+   
       <div className="relative w-full h-64 sm:h-80 md:h-96 rounded-2xl overflow-hidden mb-10">
         <img
           src={bg}
@@ -32,7 +32,7 @@ function ProductSortPage() {
 
       <div className="w-[95%] max-w-7xl m-auto">
         {selectedProduct ? (
-          // جزئیات محصول
+        
           <div className="flex flex-col md:flex-row  justify-center items-center gap-8 bg-gray-50 py-8 px-4 md:px-12 rounded-2xl shadow-md">
             <div className="w-full md:w-1/2 flex justify-center">
               <img
@@ -73,7 +73,7 @@ function ProductSortPage() {
             </div>
           </div>
         ) : filteredProducts.length > 0 ? (
-          // لیست محصولات
+         
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 justify-items-center">
             {filteredProducts.map((item) => (
               <ProductCard
