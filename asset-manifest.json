@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/golBama/static/css/main.9841ca01.css",
-    "main.js": "/golBama/static/js/main.e49b1370.js",
+    "main.css": "/golBama/static/css/main.f2ef4a19.css",
+    "main.js": "/golBama/static/js/main.9fbb4e06.js",
     "static/media/bg.jpg": "/golBama/static/media/bg.beaf17dfc5a44eb93b1d.jpg",
     "static/media/banner.png": "/golBama/static/media/banner.f2da52a08a0764380444.png",
     "static/media/BYekan+.ttf": "/golBama/static/media/BYekan+.f26972c64b83c2aea5ca.ttf",
@@ -58,11 +58,11 @@
     "static/media/fastSend.svg": "/golBama/static/media/fastSend.212ac022c82981690ee553478598b104.svg",
     "index.html": "/golBama/index.html",
     "static/media/insurance.svg": "/golBama/static/media/insurance.66ae31b602b179fb5686e1b3cdd29a36.svg",
-    "main.9841ca01.css.map": "/golBama/static/css/main.9841ca01.css.map",
-    "main.e49b1370.js.map": "/golBama/static/js/main.e49b1370.js.map"
+    "main.f2ef4a19.css.map": "/golBama/static/css/main.f2ef4a19.css.map",
+    "main.9fbb4e06.js.map": "/golBama/static/js/main.9fbb4e06.js.map"
   },
   "entrypoints": [
-    "static/css/main.9841ca01.css",
-    "static/js/main.e49b1370.js"
+    "static/css/main.f2ef4a19.css",
+    "static/js/main.9fbb4e06.js"
   ]
 }
